@@ -3,6 +3,9 @@
 <head>
 	<meta charset="utf-8" />
 	<title>DiseñadorFreeLancer</title>
+	<link rel="preload" href="index.css" as="style">
+	<link rel="stylesheet" href="index.css">
+
 </head>
 <body>
 
@@ -109,7 +112,36 @@
 
 	<section>
 			<h2>Contacto</h2>
-			<!-- Aqui va el Formulario -->
+			<form action="">
+				<fieldset>
+
+					<legend>Contactos llenado Todos Los Campos</legend>
+
+					<div>
+						<label for="nombre">Nombre</label>
+						<input type="text" placeholder="Nombre">	
+					</div>
+
+					<div>
+						<label for="telefono">Telefono</label>
+						<input type="tel" placeholder="Telefono">
+					</div>
+
+					<div>
+						<label for="correo">Correo</label>
+						<input type="email" placeholder="Correo">
+					</div>
+
+					<nav>
+						<label for="mensaje">Mensaje</label>
+						<textarea placeholder="Tu Mensaje Aqui"></textarea>
+					</nav>
+
+					<div>
+						<input type="submit" value="Enviar">
+					</div>
+				</fieldset>
+			</form>
 	</section>
 
 
