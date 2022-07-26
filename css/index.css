@@ -1,0 +1,35 @@
+:root {
+    --primario:   #A64B2A;
+    --secundario: #8E3200;
+    --tertiary:   #AB6D23;
+    --cuarto:     #100F0F;
+    --gris:       #CFD2CF;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 16px;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 span {
+    font-size: 2rem;
+}
+
+.nav-bg {
+    background-color: var(--tertiary);
+}
+
+.navegacion-principal {
+    width: 120rem;
+    margin: 0 auto;
+}
